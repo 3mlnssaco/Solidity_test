@@ -1,12 +1,12 @@
-//SPDX-License-Identifier : MIT
+// SPDX-License-Identifier: MIT 
 pragma solidity >= 0.8.0 < 0.9.0;
 pragma solidity ^0.8.0;
 
-contract solidirty { 
+contract Solidity { 
     // a -> Fun() -> b
-    uint8 publuc a = 10;
+    uint8 public a = 10;
 
-    funcrion changeData () public {
-        a=15
+    function changeData() public {
+        a = 15;
     }
 }
